@@ -1,0 +1,9 @@
+def print_data(name, age, nationality, college, CGPA, internships):
+    print(name)
+    print(age)
+    print(nationality)
+    print(college)
+    print(CGPA)
+    print(internships)
+
+print_data(input("What is your name:\n"), input ("Enter your age:\n"), input("What is your nationality:\n"), input("Enter your college name:\n"), input("What is your CGPA:\n"), input("Got any experience in industry? (If not say inapplicable):\n"))
