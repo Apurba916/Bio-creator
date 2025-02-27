@@ -28,6 +28,6 @@ int main() {
     printf("Enter your phone number:");
     fgets(phone, 100, stdin);
 
-    printf("Hi my name is "+ put(name) + " and I am "+ put(age) + " years old. I am from "+ put(country) + ". I am currently pursuing my "+ put(course) + " in "+ put(branch) + " from "+ put(college) + ". I am in my "+ put(year) + " year of college. My CGPA is "+ put(cgpa) + ". I have "+ put(experience) + " in the field of internships. I have worked on projects like "+ put(project) + ". I have skills in "+ put(skills) + ". You can contact me on my email "+ put(email) + " or on my phone number "+ put(phone) + ".");
+    printf("Hi my name is %sI am %s years old. I am from %s. I am pursuing %s in %s branch from %s. I am in %s year. I have %s. I have worked on %s. I have worked on %s. You can contact me on %s or %s.\n", name, age, country, course, branch, college, year, experience, skills, project, email, phone);
     return 0;
 } 
