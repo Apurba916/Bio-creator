@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main() {
+    char name[100], age[100], country[100], college[100], cgpa[100], course[100], branch[100], year[100], experience[100], skills[100], project[100], email[100], phone[100];
+    printf("Enter your name:");
+    fgets(name, 100, stdin);
+    printf("Enter your age:");
+    fgets(age, 100, stdin);
+    printf("Enter your Country:");
+    fgets(country, 100, stdin);
+    printf("Enter your college name:");
+    fgets(college, 100, stdin);
+    printf("Enter your CGPA:");
+    fgets(cgpa, 100, stdin);
+    printf("Enter your course:");
+    fgets(course, 100, stdin);
+    printf("Enter your branch:");
+    fgets(branch, 100, stdin);
+    printf("Enter your year:");
+    fgets(year, 100, stdin);
+    printf("Enter your experience:\n(If you have no internship experience, write 'No internship experience'):");
+    fgets(experience, 100, stdin);
+    printf("Enter your skills:(i.e. C, C++, Python, Java, AI, Machine Learning etc.)");
+    fgets(skills, 100, stdin);
+    printf("Enter your project details:\n(If you have no project experience, write 'No project experience'):");
+    fgets(project, 100, stdin);
+    printf("Enter your email:");
+    fgets(email, 100, stdin);
+    printf("Enter your phone number:");
+    fgets(phone, 100, stdin);
+
+    printf("Hi my name is "+ put(name) + " and I am "+ put(age) + " years old. I am from "+ put(country) + ". I am currently pursuing my "+ put(course) + " in "+ put(branch) + " from "+ put(college) + ". I am in my "+ put(year) + " year of college. My CGPA is "+ put(cgpa) + ". I have "+ put(experience) + " in the field of internships. I have worked on projects like "+ put(project) + ". I have skills in "+ put(skills) + ". You can contact me on my email "+ put(email) + " or on my phone number "+ put(phone) + ".");
+    return 0;
+} 
